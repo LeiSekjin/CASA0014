@@ -5,15 +5,15 @@
 #include <utility/wifi_drv.h>
 #include <PubSubClient.h>
 
-const char* WIFI_SSID = "CE-Hub-Student";
-const char* WIFI_PASSWORD = "casa-ce-gagarin-public-service";
-const char* MQTT_BROKER = "mqtt.cetools.org";
-const int MQTT_PORT = 1884;
-const char* MQTT_USERNAME = "student";
-const char* MQTT_PASSWORD = "ce2021-mqtt-forget-whale";
+const char* WIFI_SSID = "YOUR_SSID";
+const char* WIFI_PASSWORD = "YOUR_PASSWORD";
+const char* MQTT_BROKER = "YOUR_MQTT_BROKER";
+const int MQTT_PORT = YOUR_MQTT_PORT;
+const char* MQTT_USERNAME = "YOUR_USERNAME";
+const char* MQTT_PASSWORD = "YOUR_PASSWORD";
 
-String lightId = "7";
-String mqtt_topic = "student/CASA0014/luminaire/" + lightId;
+String lightId = "YOUR_ID";
+String mqtt_topic = "ADDRESS..." + lightId;
 
 const int num_leds = 72;
 const int payload_size = num_leds * 3;
