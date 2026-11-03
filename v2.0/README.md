@@ -1,0 +1,2 @@
+-  The **App** folder contains all the code of the system.
+-  The code in the **Scan_sensor** folder can be used to check whether all components have been properly connected.
